@@ -1,12 +1,533 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\service\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\service\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\service\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\service\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\service\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\service\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\service\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\service\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\repositories\\wordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\repositories\\wordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\repositories\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\repositories\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\repositories\\conversationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\repositories\\conversationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\services\\iwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\services\\iwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\services\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\services\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\services\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\services\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\services\\iconversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\services\\iconversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\repositories\\iwordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\repositories\\iwordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\repositories\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\repositories\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\repositories\\iconversationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\repositories\\iconversationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\repositories\\iusererepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\repositories\\iusererepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\core\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\core\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\api\\controllers\\wordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\api\\controllers\\wordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\api\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\api\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\api\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\api\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\api\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\api\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|c:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\lingoflow\\lingoflow.server\\lingoflow.server\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}|LingoFlow.Server\\LingoFlow.Server.csproj|solutionrelative:lingoflow.server\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WordService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\WordService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Service\\WordService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\WordService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Service\\WordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:53:00.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\SubjectService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Service\\SubjectService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\SubjectService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Service\\SubjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:52:43.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\Feedback.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Service\\Feedback.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\Feedback.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Service\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:52:32.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConversationService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\ConversationService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Service\\ConversationService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\ConversationService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Service\\ConversationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:52:18.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Service\\UserService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Service\\UserService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:52:06.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WordRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\WordRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Repositories\\WordRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\WordRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Repositories\\WordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:07:24.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeedbackRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\FeedbackRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Repositories\\FeedbackRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\FeedbackRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Repositories\\FeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:07:15.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Program.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Program.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Program.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:53:00.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubjectRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\SubjectRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Repositories\\SubjectRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\SubjectRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Repositories\\SubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:07:02.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConversationRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\ConversationRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Repositories\\ConversationRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\ConversationRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Repositories\\ConversationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:06:52.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:06:38.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Data\\DataContext.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Data\\DataContext.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:05:34.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IWordService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IWordService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Services\\IWordService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IWordService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Services\\IWordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:04:02.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISubjectService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\ISubjectService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Services\\ISubjectService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\ISubjectService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Services\\ISubjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:03:53.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IFeedbackService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IFeedbackService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Services\\IFeedbackService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IFeedbackService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Services\\IFeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:03:34.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IConversationService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IConversationService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Services\\IConversationService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IConversationService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Services\\IConversationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:03:23.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Services\\IUserService.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Services\\IUserService.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:03:10.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IWordRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IWordRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Repositories\\IWordRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IWordRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Repositories\\IWordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:02:33.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISubjectRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\ISubjectRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Repositories\\ISubjectRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\ISubjectRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Repositories\\ISubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:02:22.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IFeedbackRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Repositories\\IFeedbackRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IFeedbackRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Repositories\\IFeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:02:09.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IConversationRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IConversationRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Repositories\\IConversationRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IConversationRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Repositories\\IConversationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:01:56.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUsereRepository.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IUsereRepository.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Repositories\\IUsereRepository.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Repositories\\IUsereRepository.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Repositories\\IUsereRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:01:41.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Word.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Word.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Models\\Word.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Word.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Models\\Word.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:59:42.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Conversation.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Models\\Conversation.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Conversation.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Models\\Conversation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:59:31.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Models\\Feedback.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Feedback.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:59:16.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Models\\Subject.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\Subject.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:59:07.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Core\\Models\\User.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Core\\Models\\User.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:58:41.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WordController.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\WordController.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Api\\Controllers\\WordController.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\WordController.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Api\\Controllers\\WordController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:57:15.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Api\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Api\\Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:57:03.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Api\\Controllers\\SubjectController.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Api\\Controllers\\SubjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:56:46.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ConversationController.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\ConversationController.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Api\\Controllers\\ConversationController.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\ConversationController.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Api\\Controllers\\ConversationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:56:30.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LingoFlow.Server\\Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\\u05E9\u05E0\u05D4 \u05D1 \u05EA\u05DB\u05E0\u05D5\u05EA\\LingoFlow\\LingoFlow.Server\\LingoFlow.Server\\Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LingoFlow.Server\\Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:56:11.493Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

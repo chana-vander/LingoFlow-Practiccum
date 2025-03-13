@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoFlow.Server", "LingoFlow.Server\LingoFlow.Server.csproj", "{FAEC8731-7BDC-4A06-ABA0-592D83487E04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoFlow.Server", "LingoFlow.Server\LingoFlow.Server.csproj", "{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAEC8731-7BDC-4A06-ABA0-592D83487E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAEC8731-7BDC-4A06-ABA0-592D83487E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAEC8731-7BDC-4A06-ABA0-592D83487E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAEC8731-7BDC-4A06-ABA0-592D83487E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
