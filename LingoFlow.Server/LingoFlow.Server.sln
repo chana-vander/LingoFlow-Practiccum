@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoFlow.Server", "LingoFlow.Server\LingoFlow.Server.csproj", "{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoFlow.Api", "LingoFlow.Server\LingoFlow.Api.csproj", "{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoFlow.Core", "LingoFlow.Core\LingoFlow.Core.csproj", "{BB8A0364-DD6B-491F-99ED-73D18DD9D4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoFlow.Data", "LingoFlow.Data\LingoFlow.Data.csproj", "{CCC048E4-89FB-4A31-9CC5-AFAA767CE004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoFlow.Service", "LingoFlow.Service\LingoFlow.Service.csproj", "{41C4B753-4A43-47F1-ABD3-DCF5DA670785}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8465D8DC-DE53-4F77-843E-FB37AD90F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8A0364-DD6B-491F-99ED-73D18DD9D4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8A0364-DD6B-491F-99ED-73D18DD9D4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8A0364-DD6B-491F-99ED-73D18DD9D4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8A0364-DD6B-491F-99ED-73D18DD9D4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC048E4-89FB-4A31-9CC5-AFAA767CE004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC048E4-89FB-4A31-9CC5-AFAA767CE004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC048E4-89FB-4A31-9CC5-AFAA767CE004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC048E4-89FB-4A31-9CC5-AFAA767CE004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C4B753-4A43-47F1-ABD3-DCF5DA670785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C4B753-4A43-47F1-ABD3-DCF5DA670785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C4B753-4A43-47F1-ABD3-DCF5DA670785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C4B753-4A43-47F1-ABD3-DCF5DA670785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
