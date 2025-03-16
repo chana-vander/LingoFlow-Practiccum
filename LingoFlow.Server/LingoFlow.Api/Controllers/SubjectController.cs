@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LingoFlow.Core.Models;
+using LingoFlow.Core.Services;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,19 +10,33 @@ namespace LingoFlow.Api.Controllers
     [ApiController]
     public class SubjectController : ControllerBase
     {
-        // GET: api/<SubjectController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly ISubjectService _subjectService;
+        //private readonly IMapper _mapper;
+        public SubjectController(ISubjectService subjectService)
         {
-            return new string[] { "value1", "value2" };
+            _subjectService= subjectService;
+        }
+        // GET: api/<UserController>
+        [HttpGet]
+        public async Task<IEnumerable<Subject>> Get()
+        {
+            return await _subjectService.GetAllSubjectsAsync();
         }
 
-        // GET api/<SubjectController>/5
+        // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<Feedback>> Get(int id)
         {
-            return "value";
+            var subject = await _subjectService.GetSubjectByIdAsync(id);
+
+            if (subject == null)
+            {
+                return NotFound($"Subject with ID {id} not found.");
+            }
+
+            return Ok(subject);
         }
+
 
         // POST api/<SubjectController>
         [HttpPost]

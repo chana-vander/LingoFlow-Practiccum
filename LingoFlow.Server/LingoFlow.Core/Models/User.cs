@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LingoFlow.Core.Models
 {
-    internal class User
+    public class User
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

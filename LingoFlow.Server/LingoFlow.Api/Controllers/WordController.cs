@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LingoFlow.Core.Models;
+using LingoFlow.Core.Services;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,19 +10,33 @@ namespace LingoFlow.Api.Controllers
     [ApiController]
     public class WordController : ControllerBase
     {
-        // GET: api/<WordController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IWordService _wordService;
+        //private readonly IMapper _mapper;
+        public WordController(IWordService wordService)
         {
-            return new string[] { "value1", "value2" };
+           _wordService = wordService;
+        }
+        // GET: api/<UserController>
+        [HttpGet]
+        public async Task<IEnumerable<Word>> Get()
+        {
+            return await _wordService.GetAllWordsAsync();
         }
 
-        // GET api/<WordController>/5
+        // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<Word>> Get(int id)
         {
-            return "value";
+            var word = await _wordService.GetWordByIdAsync(id);
+
+            if (word == null)
+            {
+                return NotFound($"Word with ID {id} not found.");
+            }
+
+            return Ok(word);
         }
+
 
         // POST api/<WordController>
         [HttpPost]

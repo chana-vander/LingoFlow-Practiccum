@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LingoFlow.Core\LingoFlow.Core.csproj" />
+    <ProjectReference Include="..\LingoFlow.Data\LingoFlow.Data.csproj" />
+  </ItemGroup>
+
 </Project>

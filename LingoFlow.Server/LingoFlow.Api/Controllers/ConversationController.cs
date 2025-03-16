@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LingoFlow.Core.Models;
+using LingoFlow.Core.Services;
+using LingoFlow.Service;
+using Microsoft.AspNetCore.Mvc;
+using System.Numerics;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,24 +12,49 @@ namespace LingoFlow.Api.Controllers
     [ApiController]
     public class ConversationController : ControllerBase
     {
-        // GET: api/<ConversationController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IConversationService _conversationService;
+        //private readonly IMapper _mapper;
+        public ConversationController(IConversationService conversationService)
         {
-            return new string[] { "value1", "value2" };
+            _conversationService = conversationService;
+        }
+        // GET: api/<UserController>
+        [HttpGet]
+        public async Task<IEnumerable<Conversation>> Get()
+        {
+            return await _conversationService.GetAllConversationsAsync();
         }
 
-        // GET api/<ConversationController>/5
+        // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<User>> Get(int id)
         {
-            return "value";
+            var conversation = await _conversationService.GetConversationByIdAsync(id);
+
+            if (conversation == null)
+            {
+                return NotFound($"Conversation with ID {id} not found.");
+            }
+
+            return Ok(conversation);
         }
+
 
         // POST api/<ConversationController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult> Post(Conversation conversation)
         {
+            if (conversation == null)
+            {
+                return BadRequest("שיחה לא נמצאת"); // בדיקה אם המשתמש null
+            }
+
+            // הוספת המשתמש על ידי קריאה לשירות
+            var addedUser = await _conversationService.AddConversationAsync(conversation);
+
+            // החזרת תגובה עם קוד 201 (Created)
+            //return CreatedAtAction(nameof(AddConversation), new { id = add.Id }, addedUser);
+            return Ok(addedUser);
         }
 
         // PUT api/<ConversationController>/5

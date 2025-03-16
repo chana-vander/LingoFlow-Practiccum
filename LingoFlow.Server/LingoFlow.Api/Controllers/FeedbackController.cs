@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LingoFlow.Core.Models;
+using LingoFlow.Core.Services;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,18 +10,31 @@ namespace LingoFlow.Api.Controllers
     [ApiController]
     public class FeedbackController : ControllerBase
     {
-        // GET: api/<FeedbackController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IFeedbackService _feedbackService;
+        //private readonly IMapper _mapper;
+        public FeedbackController(IFeedbackService feedbackService)
         {
-            return new string[] { "value1", "value2" };
+            _feedbackService = feedbackService;
+        }
+        // GET: api/<UserController>
+        [HttpGet]
+        public async Task<IEnumerable<Feedback>> Get()
+        {
+            return await _feedbackService.GetAllFeedbacksAsync();
         }
 
-        // GET api/<FeedbackController>/5
+        // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<Feedback>> Get(int id)
         {
-            return "value";
+            var feedback = await _feedbackService.GetFeedbackByIdAsync(id);
+
+            if (feedback == null)
+            {
+                return NotFound($"Feedback with ID {id} not found.");
+            }
+
+            return Ok(feedback);
         }
 
         // POST api/<FeedbackController>

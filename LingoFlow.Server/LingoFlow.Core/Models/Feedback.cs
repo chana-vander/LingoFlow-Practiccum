@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LingoFlow.Core.Models
 {
-    internal class Feedback
+    public class Feedback
     {
         public int Id { get; set; }
         public int ConversationId { get; set; }
