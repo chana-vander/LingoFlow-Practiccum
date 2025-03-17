@@ -28,9 +28,9 @@ namespace LingoFlow.Data.Repositories
             WordM = wordM;
         }
 
-        public async Task saveAsync()
+        public async Task SaveAsync()
         {
-            _dataContext.SaveChanges();
+            await _dataContext.SaveChangesAsync();
         }
 
     }

@@ -13,5 +13,7 @@ namespace LingoFlow.Core.Repositories
         Task<User?> GetUserByIdAsync(int id);
 
         Task<User> AddUserAsync(User user); // הוספת משתמש
+        Task UpdateUserAsync(User user);
+        Task<User?> GetUserByEmailAsync(string email);
     }
 }

@@ -1,7 +1,11 @@
-﻿using LingoFlow.Core.Models;
+﻿using AutoMapper;
+using LingoFlow.Api.Models;
+using LingoFlow.Core.Dto;
+using LingoFlow.Core.Models;
 using LingoFlow.Core.Services;
 using LingoFlow.Service;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Numerics;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,16 +17,23 @@ namespace LingoFlow.Api.Controllers
     public class ConversationController : ControllerBase
     {
         private readonly IConversationService _conversationService;
-        //private readonly IMapper _mapper;
-        public ConversationController(IConversationService conversationService)
+        private readonly IMapper _mapper;
+        public ConversationController(IConversationService conversationService,IMapper mapper)
         {
             _conversationService = conversationService;
+            _mapper = mapper;
         }
         // GET: api/<UserController>
         [HttpGet]
-        public async Task<IEnumerable<Conversation>> Get()
+        public async Task<IEnumerable<ConversationDto>> Get()
         {
-            return await _conversationService.GetAllConversationsAsync();
+            var conversationDto = await _conversationService.GetAllConversationsAsync();
+            var conversations = new List<ConversationDto>();
+            foreach (var conversation in conversationDto)
+            {
+                conversations.Add(_mapper.Map<ConversationDto>(conversation));
+            }
+            return conversations;
         }
 
         // GET api/<UserController>/5
@@ -39,18 +50,18 @@ namespace LingoFlow.Api.Controllers
             return Ok(conversation);
         }
 
-
         // POST api/<ConversationController>
         [HttpPost]
-        public async Task<ActionResult> Post(Conversation conversation)
+        public async Task<ActionResult> Post([FromBody] ConversationPostModel conversation)
         {
             if (conversation == null)
             {
-                return BadRequest("שיחה לא נמצאת"); // בדיקה אם המשתמש null
+                return BadRequest("שיחה ריקה:("); // בדיקה אם המשתמש null
             }
+            var conversationToPost = new Conversation();
 
-            // הוספת המשתמש על ידי קריאה לשירות
-            var addedUser = await _conversationService.AddConversationAsync(conversation);
+            // הוספת שיחה על ידי קריאה לשירות
+            var addedUser = await _conversationService.AddConversationAsync(conversationToPost);
 
             // החזרת תגובה עם קוד 201 (Created)
             //return CreatedAtAction(nameof(AddConversation), new { id = add.Id }, addedUser);

@@ -1,19 +1,17 @@
-﻿using Microsoft.VisualBasic;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LingoFlow.Core.Models
+namespace LingoFlow.Core.Dto
 {
-    public class User
+    public class UserRegisterDto
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public DateTime CreatedAt { get; set; }
-        public List<Conversation> Conversations { get; set; } = new();
     }
 }

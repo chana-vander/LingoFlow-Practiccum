@@ -1,4 +1,7 @@
-﻿using LingoFlow.Core.Models;
+﻿using AutoMapper;
+using LingoFlow.Core;
+using LingoFlow.Core.Dto;
+using LingoFlow.Core.Models;
 using LingoFlow.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,16 +14,22 @@ namespace LingoFlow.Api.Controllers
     public class WordController : ControllerBase
     {
         private readonly IWordService _wordService;
-        //private readonly IMapper _mapper;
-        public WordController(IWordService wordService)
+        private readonly IMapper _mapper;
+        public WordController(IWordService wordService,IMapper mapper)
         {
            _wordService = wordService;
+            _mapper = mapper;
         }
         // GET: api/<UserController>
         [HttpGet]
-        public async Task<IEnumerable<Word>> Get()
+        public async Task<IEnumerable<WordDto>> Get()
         {
-            return await _wordService.GetAllWordsAsync();
+            var wordsDto=await _wordService.GetAllWordsAsync();
+            var words=new List<WordDto>();
+            foreach (var word in wordsDto) { 
+                words.Add(_mapper.Map<WordDto>(word));
+            }
+            return words;
         }
 
         // GET api/<UserController>/5
@@ -28,13 +37,13 @@ namespace LingoFlow.Api.Controllers
         public async Task<ActionResult<Word>> Get(int id)
         {
             var word = await _wordService.GetWordByIdAsync(id);
-
-            if (word == null)
+            var wordDto=Mapping.MapToWordDto(word);
+            if (wordDto == null)
             {
                 return NotFound($"Word with ID {id} not found.");
             }
 
-            return Ok(word);
+            return Ok(wordDto);
         }
 
 

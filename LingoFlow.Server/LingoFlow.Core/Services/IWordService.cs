@@ -11,5 +11,11 @@ namespace LingoFlow.Core.Services
     {
         Task<IEnumerable<Word>> GetAllWordsAsync();
         Task<Word?> GetWordByIdAsync(int id);
+
+        //List<Word> GetList();
+        //Word? GetById(int id);
+        //Task<Word> AddAsync(Word word);
+        //Word Update(Word word);
+        //void Delete(int id);
     }
 }
