@@ -18,7 +18,7 @@ namespace LingoFlow.Api.Controllers
     {
         private readonly IConversationService _conversationService;
         private readonly IMapper _mapper;
-        public ConversationController(IConversationService conversationService,IMapper mapper)
+        public ConversationController(IConversationService conversationService, IMapper mapper)
         {
             _conversationService = conversationService;
             _mapper = mapper;
@@ -66,6 +66,18 @@ namespace LingoFlow.Api.Controllers
             // החזרת תגובה עם קוד 201 (Created)
             //return CreatedAtAction(nameof(AddConversation), new { id = add.Id }, addedUser);
             return Ok(addedUser);
+        }
+        // POST: api/conversations/start
+        [HttpPost("start")]
+        public async Task<IActionResult> StartRecording([FromBody] ConversationPostModel request)
+        {
+            // קריאה לפונקציה בשירות
+            var conversation = await _conversationService.StartRecordingAsync(request.UserId, request.SubjectId);
+
+            if (conversation != null)
+                return Ok(new { message = "Recording started successfully", conversationId = conversation.Id });
+            else
+                return BadRequest(new { message = "Failed to start recording" });
         }
 
         // PUT api/<ConversationController>/5

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LingoFlow.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250315213343_createDB3")]
-    partial class createDB3
+    [Migration("20250318005054_updateConversationProp2")]
+    partial class updateConversationProp2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,13 +33,25 @@ namespace LingoFlow.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("RecordedAt")
+                    b.Property<DateTime?>("EndTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SubjectId")
+                        .HasColumnType("int");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("SubjectId");
 
                     b.HasIndex("UserId");
 
@@ -75,6 +87,31 @@ namespace LingoFlow.Data.Migrations
                     b.ToTable("Feedbacks");
                 });
 
+            modelBuilder.Entity("LingoFlow.Core.Models.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("ExpiryDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RefreshTokens");
+                });
+
             modelBuilder.Entity("LingoFlow.Core.Models.Subject", b =>
                 {
                     b.Property<int>("Id")
@@ -107,15 +144,11 @@ namespace LingoFlow.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FirstName")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordHash")
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -152,11 +185,19 @@ namespace LingoFlow.Data.Migrations
 
             modelBuilder.Entity("LingoFlow.Core.Models.Conversation", b =>
                 {
+                    b.HasOne("LingoFlow.Core.Models.Subject", "Subject")
+                        .WithMany()
+                        .HasForeignKey("SubjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("LingoFlow.Core.Models.User", "User")
                         .WithMany("Conversations")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Subject");
 
                     b.Navigation("User");
                 });
@@ -170,6 +211,17 @@ namespace LingoFlow.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Conversation");
+                });
+
+            modelBuilder.Entity("LingoFlow.Core.Models.RefreshToken", b =>
+                {
+                    b.HasOne("LingoFlow.Core.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("LingoFlow.Core.Models.Word", b =>

@@ -38,5 +38,30 @@ namespace LingoFlow.Data.Repositories
 
             return conversation;
         }
+        //public async Task<Conversation> StartConversationAsync(int userId, int subjectId)
+        //{
+        //    // בדוק אם המשתמש קיים
+        //    var user = await _userRepository.GetUserByIdAsync(userId);
+        //    if (user == null) return null;
+
+        //    // בדוק אם הנושא קיים
+        //    var subject = await _subjectRepository.GetSubjectByIdAsync(subjectId);
+        //    if (subject == null) return null;
+
+        //    // יצירת שיחה חדשה
+        //    var conversation = new Conversation
+        //    {
+        //        UserId = userId,
+        //        SubjectId = subjectId,
+        //        StartTime = DateTime.UtcNow,
+        //        Status = "Recording"
+        //    };
+
+        //    // שמירה במסד הנתונים
+        //    _context.Conversations.Add(conversation);
+        //    await _context.SaveChangesAsync();
+
+        //    return conversation;
+        //}
     }
 }

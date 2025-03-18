@@ -16,6 +16,7 @@ namespace LingoFlow.Data
         public DbSet<Feedback> Feedbacks { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Word> Words { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=lingoflow_db ;Trusted_Connection=True ");

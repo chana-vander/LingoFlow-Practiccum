@@ -5,9 +5,12 @@ namespace LingoFlow.Api.Models
     public class ConversationPostModel
     {
 
-        public int UserId { get; set; }
-        public int LengthConversation { get; set; }  // משך ההקלטה בדקות
-        public DateTime RecordedAt { get; set; } = DateTime.UtcNow;
+        //public int UserId { get; set; }
+        //public int LengthConversation { get; set; }  // משך ההקלטה בדקות
+        //public DateTime RecordedAt { get; set; } = DateTime.UtcNow;
         //public string? AudioFilePath { get; set; }
+
+        public int UserId { get; set; }
+        public int SubjectId { get; set; }
     }
 }

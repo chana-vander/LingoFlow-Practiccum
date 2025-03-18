@@ -17,8 +17,9 @@ namespace LingoFlow.Core
         }
         public static ConversationDto MapToConversationDto(Conversation conversation)
         {
-            return new ConversationDto { Id = conversation.Id, UserId = conversation.UserId, RecordedAt = conversation.RecordedAt };
+            return new ConversationDto { Id = conversation.Id, UserId = conversation.UserId, StartTime = conversation.StartTime,Status=conversation.Status, EndTime = conversation.EndTime, };
         }
+
         public static FeedbackDto MapFeedbackDto(Feedback feedback)
         {
             return new FeedbackDto { Id = feedback.Id, ConversationId = feedback.ConversationId, Comments = feedback.Comments, Score = feedback.Score };

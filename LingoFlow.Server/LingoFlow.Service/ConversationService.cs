@@ -13,10 +13,14 @@ namespace LingoFlow.Service
     public class ConversationService : IConversationService
     {
         private readonly IConversationRepository _conversationRepository;
+        private readonly IUserRepository _userRepository;
+        private readonly ISubjectRepository _subjectRepository;
 
-        public ConversationService(IConversationRepository conversationRepository)
+        public ConversationService(IConversationRepository conversationRepository, IUserRepository userRepository, ISubjectRepository subjectRepository)
         {
-            _conversationRepository= conversationRepository;
+            _conversationRepository = conversationRepository;
+            _userRepository = userRepository;
+            _subjectRepository = subjectRepository;
         }
 
         public async Task<IEnumerable<Conversation>> GetAllConversationsAsync()
@@ -36,6 +40,21 @@ namespace LingoFlow.Service
             }
 
             // מבצע הוספה דרך המאגר
+            return await _conversationRepository.AddConversationAsync(conversation);
+        }
+        public async Task<Conversation?> StartRecordingAsync(int userId, int subjectId)
+        {
+            var user = await _userRepository.GetUserByIdAsync(userId);
+            if (user == null) 
+                return null;
+
+            var subject = await _subjectRepository.GetSubjectByIdAsync(subjectId);
+            if (subject == null) return null;
+
+            // יצירת שיחה חדשה
+            var conversation = new Conversation { UserId = userId, SubjectId = subjectId, StartTime = DateTime.UtcNow, Status = "Recording" };
+
+            // שמירה במסד הנתונים דרך הרפוזיטורי
             return await _conversationRepository.AddConversationAsync(conversation);
         }
     }

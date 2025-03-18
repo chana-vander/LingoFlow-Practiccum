@@ -8,11 +8,26 @@ namespace LingoFlow.Core.Models
 {
     public class Conversation
     {
-        public int Id { get; set; }
+         public int Id { get; set; }
+
+        // מזהה המשתמש שהתחיל את השיחה
         public int UserId { get; set; }
         public User User { get; set; }
-        //public string AudioFilePath { get; set; }
-        public DateTime RecordedAt { get; set; }
+
+        // מזהה הנושא של השיחה
+        public int SubjectId { get; set; }
+        public Subject Subject { get; set; }
+
+        // זמן התחלת ההקלטה
+        public DateTime StartTime { get; set; }
+
+        // סטטוס השיחה (Recording, Completed וכו')
+        public string Status { get; set; }
+
+        // זמן סיום ההקלטה (אופציונלי, לשימוש עתידי)
+        public DateTime? EndTime { get; set; }
+
+        // משוב לשיחה
         public Feedback Feedback { get; set; }
     }
 }

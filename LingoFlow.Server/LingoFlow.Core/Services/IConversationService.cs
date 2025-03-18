@@ -12,5 +12,7 @@ namespace LingoFlow.Core.Services
         Task<IEnumerable<Conversation>> GetAllConversationsAsync();  // תיקון החתימה
         Task<Conversation?> GetConversationByIdAsync(int id); // הוספנו גם פונקציה לחיפוש משתמש בודד
         Task<Conversation> AddConversationAsync(Conversation conversation); // הוספת שיחה
+        //Task<bool> StartRecordingAsync(int userId, int subjectId);
+        Task<Conversation?> StartRecordingAsync(int userId, int subjectId);
     }
 }

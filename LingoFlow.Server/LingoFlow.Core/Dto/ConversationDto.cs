@@ -13,6 +13,11 @@ namespace LingoFlow.Core.Dto
         public int UserId { get; set; }
         //public User User { get; set; }
         //public string AudioFilePath { get; set; }
+        public DateTime StartTime { get; set; }
+
+        public string Status { get; set; }
+
+        public DateTime? EndTime { get; set; }
         public DateTime RecordedAt { get; set; }
         //public Feedback Feedback { get; set; }
     }

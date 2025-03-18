@@ -19,4 +19,8 @@
     <ProjectReference Include="..\LingoFlow.Core\LingoFlow.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>
